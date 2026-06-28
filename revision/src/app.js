@@ -10,7 +10,7 @@ description:"server ko start karne ke liye app.listen() method ka use kiya jata 
 }
 ]
 */ 
-
+// REST API knowledge 
 app.use(express.json());
 const notes =[]
 //post methood ka use karke data ko server me bheja jata hai
