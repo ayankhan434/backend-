@@ -6,11 +6,12 @@ const postRouter = require('./routes/post.routes.js');
 
 const app = express();
 app.use(express.json());
+app.use(cookieParser());
 app.use("/api/posts",postRouter);
 
 
 app.use("/api/auth",authRouter);
-app.use(cookieParser());
+
 
 
 module.exports=app;
